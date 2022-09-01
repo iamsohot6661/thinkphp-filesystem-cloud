@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
-namespace thans\filesystem\driver;
+namespace iamsohot\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
-use thans\filesystem\traits\Storage;
+use iamsohot\filesystem\traits\Storage;
 use think\filesystem\Driver;
 use League\Flysystem\Filesystem;
 use League\Flysystem\AwsS3v3\AwsS3Adapter;

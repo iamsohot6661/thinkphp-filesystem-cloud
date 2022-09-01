@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace thans\filesystem\driver;
+namespace iamsohot\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
 use Overtrue\Flysystem\Cos\CosAdapter;
-use thans\filesystem\traits\Storage;
+use iamsohot\filesystem\traits\Storage;
 use think\filesystem\Driver;
 
 class Qcloud extends Driver

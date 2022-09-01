@@ -11,11 +11,11 @@
 // +----------------------------------------------------------------------
 declare(strict_types=1);
 
-namespace thans\filesystem\driver;
+namespace iamsohot\filesystem\driver;
 
 use League\Flysystem\Adapter\Local as LocalAdapter;
 use League\Flysystem\AdapterInterface;
-use thans\filesystem\traits\Storage;
+use iamsohot\filesystem\traits\Storage;
 use think\filesystem\Driver;
 
 class Local extends Driver

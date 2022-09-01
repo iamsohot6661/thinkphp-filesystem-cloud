@@ -1,10 +1,10 @@
 <?php
 
-namespace thans\filesystem\driver;
+namespace iamsohot\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
 use Liz\Flysystem\QiNiu\QiNiuOssAdapter;
-use thans\filesystem\traits\Storage;
+use iamsohot\filesystem\traits\Storage;
 use think\filesystem\Driver;
 
 class Qiniu extends Driver

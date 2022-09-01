@@ -1,6 +1,6 @@
 <?php
 
-namespace thans\filesystem;
+namespace iamsohot\filesystem;
 
 use think\App;
 use think\filesystem\Driver;
@@ -30,7 +30,7 @@ class Filesystem
         if (!isset($this->disks[$name])) {
             $config = $this->app->config->get("filesystem.disks.{$name}");
 
-            $this->disks[$name] = App::factory($config['type'], '\\thans\\filesystem\\driver\\', $config);
+            $this->disks[$name] = App::factory($config['type'], '\\iamsohot\\filesystem\\driver\\', $config);
         }
 
         return $this->disks[$name];
