@@ -1,5 +1,5 @@
 {
-    "name": "thans/thinkphp-filesystem-cloud",
+    "name": "iamsohot/thinkphp-filesystem-cloud",
     "description": "thinkphp6.0 filesystem,include Aliyun and Qiniu",
     "type": "library",
     "require": {
@@ -13,20 +13,20 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Thans",
+            "name": "iamsohot",
             "email": "360641274@qq.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "thans\\filesystem\\": "src/"
+            "iamsohot\\filesystem\\": "src/"
         }
     },
     "extra": {
         "think": {
             "services": [
-                "thans\\filesystem\\Service"
+                "iamsohot\\filesystem\\Service"
             ]
         }
     }
